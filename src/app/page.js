@@ -30,7 +30,7 @@ export default function Home() {
           every Thursday for weekly/monthly co-working (and demos) in Kuala
           Lumpur, Malaysia. The group is part of the{" "}
           <a
-            className="underline italic text-cyan-400 inline-block mr-2"
+            className="underline italic text-sky-400 inline-block mr-2"
             href="https://hacka.network"
           >
             Hacka network
@@ -64,7 +64,7 @@ export default function Home() {
         <p className="my-6">
           {`Weekly meetup at`}
           <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-cyan-500"
+            className="inline-block mx-2 underline italic text-lg font-semibold text-sky-500"
             href="https://g.co/kgs/W4Sood3"
           >
             {`Common Ground Bukit Bintang`}
@@ -75,13 +75,13 @@ export default function Home() {
           <MeetupDetails />
         </div> */}
       </section>
-      {/* <section className="overflow-hidden text-gray-700">
+      <section className="overflow-hidden text-gray-700">
         <h3 className="text-xl font-semibold mb-1 text-white text-center">
           Meetups so far
         </h3>
         <div className="container px-5 mx-auto lg:pt-12 lg:px-24">
           <div className="flex flex-wrap -m-1 md:-m-2">
-            <div className="flex flex-wrap w-full md:w-1/2">
+            <div className="flex flex-wrap w-full justify-center">
               <div className="w-full sm:w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
@@ -89,22 +89,8 @@ export default function Home() {
                   src="/meetups/meetup_1.webp"
                 />
               </div>
-              <div className="w-full sm:w-1/2 p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block object-cover object-center w-full h-full rounded-lg"
-                  src="/meetups/meetup_2.webp"
-                />
-              </div>
-              <div className="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block object-cover object-center w-full h-full rounded-lg"
-                  src="/meetups/meetup_3.webp"
-                />
-              </div>
             </div>
-            <div className="flex flex-wrap w-full md:w-1/2">
+            {/* <div className="flex flex-wrap w-full md:w-1/2">
               <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
@@ -177,10 +163,10 @@ export default function Home() {
                   src="/meetups/meetup_13.webp"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-      </section> */}
+      </section>
     </main>
   );
 }
