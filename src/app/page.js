@@ -65,7 +65,7 @@ export default function Home() {
           {`Weekly meetup at`}
           <a
             className="inline-block mx-2 underline italic text-lg font-semibold text-sky-500"
-            href="https://g.co/kgs/W4Sood3"
+            href="https://g.co/kgs/BYwjzgz"
           >
             {`Common Ground Bukit Bintang`}
           </a>
