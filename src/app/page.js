@@ -89,6 +89,13 @@ export default function Home() {
                   src="/meetups/meetup_1.webp"
                 />
               </div>
+              <div className="w-full sm:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src="/meetups/meetup_2.webp"
+                />
+              </div>
             </div>
             {/* <div className="flex flex-wrap w-full md:w-1/2">
               <div className="w-full p-1 md:p-2">
