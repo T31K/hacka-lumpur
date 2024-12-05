@@ -83,18 +83,25 @@ export default function Home() {
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-full justify-center">
               <div className="w-full sm:w-1/2 p-1 md:p-2">
-                <img
+                <Image
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
                   src="/meetups/meetup_1.webp"
+                  layout="responsive"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="w-full sm:w-1/2 p-1 md:p-2">
-                <img
+                <Image
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
                   src="/meetups/meetup_2.webp"
+                  layout="responsive"
+                  width={500}
+                  height={500}
                 />
+              </div>
               </div>
             </div>
             {/* <div className="flex flex-wrap w-full md:w-1/2">
