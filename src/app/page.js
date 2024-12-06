@@ -1,5 +1,7 @@
 import Image from "next/image";
 import MeetupDetails from "@/components/MeetupDetails";
+import Faq from "@/components/Faq";
+
 export default function Home() {
   return (
     <main className=" flex min-h-screen flex-col items-center gap-y-6 py-24 px-16 bg-black text-white relative">
@@ -102,9 +104,10 @@ export default function Home() {
                   height={500}
                 />
               </div>
-              </div>
             </div>
-            {/* <div className="flex flex-wrap w-full md:w-1/2">
+          </div>
+          <Faq />
+          {/* <div className="flex flex-wrap w-full md:w-1/2">
               <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
@@ -178,7 +181,6 @@ export default function Home() {
                 />
               </div>
             </div> */}
-          </div>
         </div>
       </section>
     </main>
