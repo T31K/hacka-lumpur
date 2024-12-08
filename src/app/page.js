@@ -88,7 +88,7 @@ export default function Home() {
                 <Image
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
-                  src="/meetups/meetup_1.webp"
+                  src="/meetups/meetup_1-min.webp"
                   layout="responsive"
                   width={500}
                   height={500}
@@ -98,7 +98,7 @@ export default function Home() {
                 <Image
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
-                  src="/meetups/meetup_2.webp"
+                  src="/meetups/meetup_2-min.webp"
                   layout="responsive"
                   width={500}
                   height={500}
