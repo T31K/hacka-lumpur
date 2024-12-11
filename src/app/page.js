@@ -4,7 +4,7 @@ import Faq from "@/components/Faq";
 
 export default function Home() {
   return (
-    <main className=" flex min-h-screen flex-col items-center gap-y-6 py-24 px-16 bg-black text-white relative">
+    <main className=" flex min-h-screen flex-col items-center gap-y-6 py-24 px-12 bg-black text-white relative">
       <a href="https://github.com/T31K/hacka-lumpur" target="_blank">
         <Image
           src="/github.svg"
@@ -81,7 +81,7 @@ export default function Home() {
         <h3 className="text-xl font-semibold mb-1 text-white text-center">
           Meetups so far
         </h3>
-        <div className="container px-5 mx-auto lg:pt-12 lg:px-24">
+        <div className="container mx-auto lg:pt-12 lg:px-24">
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-full justify-center">
               <div className="w-full sm:w-1/2 p-1 md:p-2">
