@@ -1,12 +1,10 @@
-import Image from "next/image";
-import MeetupDetails from "@/components/MeetupDetails";
 import Faq from "@/components/Faq";
 
 export default function Home() {
   return (
     <main className=" flex min-h-screen flex-col items-center gap-y-6 py-24 px-12 bg-black text-white relative">
       <a href="https://github.com/T31K/hacka-lumpur" target="_blank">
-        <Image
+        <img
           src="/github.svg"
           width={40}
           height={40}
@@ -85,7 +83,7 @@ export default function Home() {
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-full justify-center">
               <div className="w-full sm:w-1/2 p-1 md:p-2">
-                <Image
+                <img
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
                   src="/meetups/meetup_1-min.webp"
@@ -96,7 +94,7 @@ export default function Home() {
               </div>
 
               <div className="w-full sm:w-1/2 p-1 md:p-2">
-                <Image
+                <img
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
                   src="/meetups/meetup_2-min.webp"
