@@ -94,6 +94,7 @@ export default function Home() {
                   height={500}
                 />
               </div>
+
               <div className="w-full sm:w-1/2 p-1 md:p-2">
                 <Image
                   alt="gallery"
