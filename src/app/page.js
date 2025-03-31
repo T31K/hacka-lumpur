@@ -184,7 +184,7 @@ export default function Home() {
       </section>
       <footer className="flex min-h-screen flex-col items-center gap-y-6 py-24 bg-black text-white relative">
         <h2 className="text-2xl">Links</h2>
-        <div className="grid grid-cols-4 gap-y-3 gap-x-5 !text-gray-600">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-y-3 gap-x-5 !text-gray-600">
           <a href="https://t31k.com/">T31K</a>
           <a href="https://getharmonize.app/">Harmonize</a>
           <a href="https://calorieasy.app/">Calorieasy</a>
