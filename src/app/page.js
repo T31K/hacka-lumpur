@@ -27,8 +27,8 @@ export default function Home() {
         <p>
           A community-run group of indie makers / coders / designers / hardware
           hackers who build their own independent apps/startups, meeting up
-          every Thursday for weekly/monthly co-working (and demos) in Kuala
-          Lumpur, Malaysia. The group is part of the{" "}
+          every now and then for co-working (and demos) in Kuala Lumpur,
+          Malaysia. The group is part of the{" "}
           <a
             className="underline italic text-sky-400 inline-block mr-2"
             href="https://hacka.network"
@@ -38,8 +38,8 @@ export default function Home() {
           with a growing community worldwide.
         </p>
         <p className="my-3">
-          If you code your own projects come and join us every Thursday from 9am
-          to co-work in the CBD area, or join our monthly meetups.
+          If you run your own startup or just building your own projects come
+          and join us every now and then for in Kuala Lumpur, Malaysia.
         </p>
         <p className="mb-4 text-lg font-semibold">The timings are:</p>
         <ul className="list-none list-inside">
@@ -62,18 +62,24 @@ export default function Home() {
           <li>5:30pm – Drinks somewhere nearby 🍻🍷</li>
         </ul>
         <p className="my-6">
-          {`Weekly meetup at`}
+          {`We usually meetup at`}
           <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-sky-500"
-            href="https://g.co/kgs/BYwjzgz"
+            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            href="https://g.co/kgs/sBhpUyA"
+            target="_blank"
           >
             {`Common Ground Bukit Bintang`}
           </a>
+          or
+          <a
+            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            href="https://g.co/kgs/AecFZsn"
+            target="_blank"
+          >
+            {`BeyondTo Co`}
+          </a>
         </p>
-        {/* <div className="flex">
-          <p>Meetup details</p>
-          <MeetupDetails />
-        </div> */}
+        <p className="my-6">Next meetup: {`TBA`}</p>
       </section>
       <section className="overflow-hidden text-gray-700">
         <h3 className="text-xl font-semibold mb-1 text-white text-center">
@@ -182,21 +188,6 @@ export default function Home() {
             </div> */}
         </div>
       </section>
-      <footer className="flex min-h-screen flex-col items-center gap-y-6 py-24 bg-black text-white relative">
-        <h2 className="text-2xl">Links</h2>
-        <div className="grid grid-cols-4 gap-y-3 gap-x-5 !text-gray-600">
-          <a href="https://t31k.com/">T31K</a>
-          <a href="https://getharmonize.app/">Harmonize</a>
-          <a href="https://calorieasy.app/">Calorieasy</a>
-          <a href="https://taroternity.com/">Taroternity</a>
-          <a href="https://listskit.com/">Lists Kit</a>
-          <a href="https://hackapura.com/">Hackapura</a>
-          <a href="https://clemanteemusic.com/">Clemantee Music</a>
-          <a href="https://fixitjerry.com/">Fix It Jerry</a>
-          <a href="https://mirabelledecoupage.com/">Mirabelle Decoupage</a>
-          <a href="https://earthinterior.sg/">Earth Interior Design</a>
-        </div>
-      </footer>
     </main>
   );
 }
