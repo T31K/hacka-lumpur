@@ -80,6 +80,16 @@ export default function Home() {
           </a>
         </p>
         <p className="my-6">Next meetup: {`TBA`}</p>
+        <p className="my-6">
+          Join our Telegram group and suggest a meetup
+          <a
+            className="inline-block mx-1 underline italic text-lg font-semibold text-red-500"
+            href="https://t.me/+99pNDXihCqE4YzE1"
+            target="_blank"
+          >
+            {`here`}
+          </a>
+        </p>
       </section>
       <section className="overflow-hidden text-gray-700">
         <h3 className="text-xl font-semibold mb-1 text-white text-center">
