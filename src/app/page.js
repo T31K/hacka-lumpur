@@ -64,7 +64,7 @@ export default function Home() {
         <p className="my-6">
           {`We usually meetup at`}
           <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            className="inline-block mx-2 underline italic text-lg font-semibold text-sky-500"
             href="https://g.co/kgs/sBhpUyA"
             target="_blank"
           >
@@ -72,7 +72,7 @@ export default function Home() {
           </a>
           or
           <a
-            className="inline-block mx-2 underline italic text-lg font-semibold text-red-500"
+            className="inline-block mx-2 underline italic text-lg font-semibold text-sky-500"
             href="https://g.co/kgs/AecFZsn"
             target="_blank"
           >
