@@ -83,7 +83,7 @@ export default function Home() {
         <p className="my-6">
           Join our Telegram group and suggest a meetup
           <a
-            className="inline-block mx-1 underline italic text-lg font-semibold text-red-500"
+            className="inline-block mx-1 underline italic text-lg font-semibold text-sky-500"
             href="https://t.me/+99pNDXihCqE4YzE1"
             target="_blank"
           >
