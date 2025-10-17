@@ -1,5 +1,3 @@
-import Faq from "@/components/Faq";
-
 export default function Home() {
   return (
     <main className=" flex min-h-screen flex-col items-center gap-y-6 py-24 px-12 bg-black text-white relative">
@@ -79,9 +77,12 @@ export default function Home() {
             {`BeyondTo Co`}
           </a>
         </p>
-        <p className="my-6">Next meetup: {`TBA`}</p>
         <p className="my-6">
-          Join our Telegram group and suggest a meetup
+          {`Meetups have been paused due to "logistical challenges" (organizers
+          got lazy), so plese stop asking when the next meetup is 🤣`}
+        </p>
+        <p className="my-6">
+          Feel free to organize/suggest a meetup in the Telegram group
           <a
             className="inline-block mx-1 underline italic text-lg font-semibold text-sky-500"
             href="https://t.me/+99pNDXihCqE4YzE1"
@@ -121,7 +122,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Faq />
           {/* <div className="flex flex-wrap w-full md:w-1/2">
               <div className="w-full p-1 md:p-2">
                 <img
