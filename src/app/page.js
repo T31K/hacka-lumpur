@@ -79,7 +79,7 @@ export default function Home() {
         </p>
         <p className="my-6">
           {`Meetups have been paused due to "logistical challenges" (organizers
-          got lazy), so plese stop asking when the next meetup is 🤣`}
+          got lazy), so please stop asking when the next meetup is 🤣`}
         </p>
         <p className="my-6">
           Feel free to organize/suggest a meetup in the Telegram group
